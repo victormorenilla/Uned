@@ -1,0 +1,64 @@
+1. Evaluación y Conceptos de Funciones
+Evaluación: Dada la función f(x)= 
+x
+x−1
+
+​
+ 
+​
+ , calcule los valores de (a) f(1), (b) f(2) y (c) f(a+h)
+.
+Identificación: Determine si la relación presentada en la siguiente tabla es una función y especifique su dominio y rango
+:
+Entradas (x): −3,−2,−1,0,1,2,3
+Salidas (y): 9,4,1,0,1,4,9
+2. Dominio, Rango y Ceros
+Análisis algebraico: Halle el dominio, el rango y todos los ceros (intersecciones con el eje x) para la función f(x)= x+2−1.
+Restricciones: Determine el dominio de la función racional f(x)= 
+x−1
+x+1
+​
+  y explique por qué ciertos valores deben excluirse
+.
+3. Simetría y Propiedades Gráficas
+Paridad: Determine algebraicamente si las siguientes funciones son pares, impares o ninguna de las dos
+:
+f(x)=x 
+4
+ −2x 
+2
+ +7
+f(x)=x 
+3
+ −x+1
+f(x)= 
+x
+1
+​
+ 
+Análisis visual: Utilice la prueba de la línea vertical para determinar si un círculo centrado en el origen con radio 1 representa una función de x
+.
+4. Funciones Lineales y Pendiente
+Cálculo de pendiente: Halle la pendiente de la línea que pasa por los puntos (2,3) y (4,11). Indique si la función es creciente o decreciente
+.
+Ecuaciones: Escriba la ecuación de la línea con pendiente m=−3 que pasa por el punto (0,2) en la forma pendiente-intersección (y=mx+b)
+.
+5. Funciones Inversas
+Cálculo de la inversa: Halle la función inversa f 
+−1
+ (x) para f(x)= 
+x+2
+x−1
+​
+  y determine el dominio y el rango de dicha inversa
+.
+Validación: Utilice la prueba de la línea horizontal para determinar si la función f(x)=x 
+3
+ −x es biunívoca en todo su dominio
+.
+6. Aplicaciones Prácticas (Modelado)
+Geometría: El área de un cuadrado depende de la longitud de su lado s. Escriba una función A(s) para el área, halle A(2) e interprete el resultado en el contexto de la variable independiente y dependiente
+.
+Física (Caída libre): Si se deja caer una bola desde una altura de 100 pies, su altura en el momento t viene dada por s(t)=−16t 
+2
+ +100. Determine el momento en que la bola toca el suelo (cuando s(t)=0)

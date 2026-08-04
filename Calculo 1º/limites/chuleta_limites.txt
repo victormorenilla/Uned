@@ -1,0 +1,52 @@
+
+CHULETA RÁPIDA DE LÍMITES
+
+1) Sustitución directa
+   Si al poner el valor no hay problema:
+   lim  (3x+1) = 7
+  (x→2)
+
+2) Indeterminación 0/0
+   Si sale 0/0, factoriza:
+   lim  (x²-1)/(x-1) = 2
+   (x→1)
+
+3) Con raíces
+   Si hay raíces y 0/0, racionaliza:
+   lim  (√(1+x)-1)/x = 1/2
+   (x→0)
+
+4) x→∞, grados iguales
+   Cociente de coeficientes principales:
+   lim  (4x²+1)/(2x²-5) = 2
+   (x→∞)
+
+5) Grado mayor arriba
+   Límite ∞:
+   lim (x³+1)/(x²+4) = ∞
+  (x→∞)
+
+6) Grado mayor abajo
+   Límite 0:
+   lim  (2x+1)/(x²+3) = 0
+   (x→∞)
+
+7) Laterales
+   Si izquierda ≠ derecha, no existe:
+   lim |x|/x no existe
+   (x→0)
+
+REGLA:
+- Sustituye primero
+- Si 0/0 → factoriza
+- Si raíces → racionaliza
+- Si ∞ → compara grados
+
+factorizar (x^3-1) = (a-b)(a^2+ab+b^2)=>(x-1)(x^2+x+(-1^2))=>(x-1)(x^2+x+1)
+	   (x^3+1) = (a+b)(a^2-ab+b^2)=>(x+1)(x^2-x+(-1^2))=>(x+1)(x^2-x+1)
+
+factorizar x^2+5x+6 = 
+Buscamos dos números que cumplan dos condiciones: 
+-Multiplicados den el término independiente (6).
+-Sumados den el coeficiente del término central (5). 
+Esos números son 2 y 3 (2x3 = 6) y (2 + 3 = 5). La factorización queda así:(x+2)(x+3)

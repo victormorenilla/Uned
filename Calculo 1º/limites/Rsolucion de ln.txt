@@ -1,0 +1,44 @@
+Esta fórmula se intenta buscar cuando dentro de logaritmo es +-∞
+
+lim    ln(x)/x^n=+-0
+x->+-∞
+
+-----------------------------------------------------------------------------------------
+Otra fórmula a buscar
+
+lim x^n * ln(x)=+-0
+x->0
+
+-------------------------------------------------------------------------------------------
+
+Fórmulas cuando el x o x+1
+
+lim  ln(x)/x+1= 1
+x->1 
+
+lim  ln(x+1)/x=1
+x->0 
+
+----------------------------------------------------------
+estos limites si pueden dar ∞ o -∞ no es una indeterminación
+e^x ≈ (1+x)
+x^3−1=(x−1)(x^2+x+1)
+--------------------------------------------------------------
+Para simplificar usar desarrollos de Taylor
+hasta términos de orden x^2
+ .
+lim  e^x-1-ln(1+x)/x^2 
+x->0
+
+formula general e^u≈1+u+u^2/2​
+u=x
+
+e^x con denominador x^2 = 1+x+x^2/2
+--------------------------------------------------------
+indeterminaciones
+
+ ∞/∞
+
+-∞ + ∞ 
+
+0 * ∞

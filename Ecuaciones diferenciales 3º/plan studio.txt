@@ -1,0 +1,34 @@
+SEMANAS 8–12 — Ecuaciones diferenciales
+Semana 8
+
+Día 50 introducción
+Día 51 separables
+Día 52 separables
+Día 53 ejercicios
+Día 54 ejercicios
+Día 55 repaso
+Día 56 descanso
+
+Modelo típico:
+
+𝑑
+𝑦
+𝑑
+𝑥
+=
+𝑘
+𝑦
+dx
+dy
+	​
+
+=ky
+
+Luego:
+
+Semana 9 → primer orden
+Semana 10 → segundo orden
+Semana 11 → aplicaciones
+Semana 12 → repaso total
+
+(estructura igual: teoría + ejercicios + repaso)
