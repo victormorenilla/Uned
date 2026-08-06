@@ -1,0 +1,7 @@
+Trucos:
+-En preguntas de "¿cuál es subespacio?", busca siempre ecuaciones lineales igualadas a cero. Si ves una constante sumando (ej. $x + y = 2$) o uniones, descártalas de inmediato.
+-En aplicaciones $f(x_1, x_2)$, si en el resultado una de las variables originales (como $x_2$) "desaparece" por completo del cálculo, esa variable queda libre para el núcleo, dándole automáticamente dimensión $1$ al núcleo.
+-En preguntas con vectores propios concretos como $(1,1,0)$ o $(-1,0,1)$, multiplicar la matriz por uno de los vectores te saca de dudas inmediatamente porque solo tienes que hacer la multiplicación fila por columna de los números conocidos.
+-Ortogonal X Ortogonal = Ortogonal.
+-Determinante de una ortogonal = +- 1(nunca 0)
+-En el espacio vectorial R^3, el conjunto formado por los vectores (x,y,z) R^3 tales que x + y + z = 1. La regla de oro de los subespacios:Para que un conjunto sea un subespacio vectorial, el vector cero (0,0,0) debe pertenecer obligatoriamente al conjunto.Comprobación del vector cero:Sustituimos (x,y,z) = (0,0,0) en la ecuación del enunciado:0 + 0 + 0 = 0 ≠ 1
