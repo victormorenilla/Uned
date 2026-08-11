@@ -1,7 +1,54 @@
 Trucos:
--En preguntas de "¿cuál es subespacio?", busca siempre ecuaciones lineales igualadas a cero. Si ves una constante sumando (ej. $x + y = 2$) o uniones, descártalas de inmediato.
--En aplicaciones $f(x_1, x_2)$, si en el resultado una de las variables originales (como $x_2$) "desaparece" por completo del cálculo, esa variable queda libre para el núcleo, dándole automáticamente dimensión $1$ al núcleo.
--En preguntas con vectores propios concretos como $(1,1,0)$ o $(-1,0,1)$, multiplicar la matriz por uno de los vectores te saca de dudas inmediatamente porque solo tienes que hacer la multiplicación fila por columna de los números conocidos.
+-En preguntas de "¿cuál es subespacio?", busca siempre ecuaciones lineales igualadas a cero. Si ves una constante sumando (ej. x + y = 2) o uniones, descártalas de inmediato.
+-En aplicaciones f(x_1, x_2), si en el resultado una de las variables originales (como x_2) "desaparece" por completo del cálculo, esa variable queda libre para el núcleo, dándole automáticamente dimensión 1 al núcleo.
+-En preguntas con vectores propios concretos como (1,1,0) o (-1,0,1), multiplicar la matriz por uno de los vectores te saca de dudas inmediatamente porque solo tienes que hacer la multiplicación fila por columna de los números conocidos.
 -Ortogonal X Ortogonal = Ortogonal.
 -Determinante de una ortogonal = +- 1(nunca 0)
 -En el espacio vectorial R^3, el conjunto formado por los vectores (x,y,z) R^3 tales que x + y + z = 1. La regla de oro de los subespacios:Para que un conjunto sea un subespacio vectorial, el vector cero (0,0,0) debe pertenecer obligatoriamente al conjunto.Comprobación del vector cero:Sustituimos (x,y,z) = (0,0,0) en la ecuación del enunciado:0 + 0 + 0 = 0 ≠ 1
+-Para saber si una matriz n x n es un isomorfismo:Le calculas el determinante det(A)≠0  SÍ es un Isomorfismo (todo es perfecto, nada se aplasta a cero).Si det(A) = 0 NO es un Isomorfismo (al menos una dimensión se aplasta a cero).O miras el Rango:En nuestro ejercicio era de 3 x 3, pero el Rango nos dio 2. Como 2 ≠ 3, dijimos directamente: NO es un isomorfismo.
+- En el espacio vectorial R^3, sea S el subespacio generado por los vectores v_1 = (1, 1, 0) y v_2 = (0, 1, 1)Las ecuaciones implícitas (o cartesianas) del subespacio S son:
+	A) x - y + z = 0;
+	B) x + y + z = 0;
+	C) x - y - z = 0;
+Aplicamos el método de sustitución rápida:Cualquier vector que genere el subespacio S (en este caso v_1 y v_2) debe cumplir obligatoriamente la ecuación implícita correcta.
+Probamos con el primer vector v_1 = (1, 1, 0) (donde x=1, y=1, z=0):
+	En A) 1 - 1 + 0 = 0 (La cumple)
+	En B) 1 + 1 + 0 = 2 (Falsa, descartamos B)
+	En C) 1 - 1 - 0 = 0 (La cumple)
+Probamos con el segundo vector v_2 = (0, 1, 1) (donde x=0, y=1, z=1) en las opciones supervivientes (A y C):
+	En A) 0 - 1 + 1 = 0 (¡Cumple también con v_2)
+	En C) 0 - 1 - 1 = -2 (Falsa, descartamos C)
+-En el espacio vectorial R^3 con el producto escalar habitual, sea S el subespacio vectorial definido por la ecuación x - y + z = 0. Una base del subespacio ortogonal S es:
+	A){(1, -1, 1)}
+	B){(1, 1, 0), (0, 1, 1)}
+	C){(1, 0, -1)}
+Cuando te dan un subespacio S definido por una o varias ecuaciones implícitas homogéneas (igualadas a 0), los coeficientes de las variables son directamente un generador de su subespacio ortogonal S.
+Miramos la ecuación de S 1x + 1y + 1z = 0.
+Extraemos los coeficientes de (x, y, z):Los números que acompañan a las variables son (1, -1, 1).
+Conclusión:El vector (1, -1, 1) es perpendicular (ortogonal) a todos los vectores del plano S. Como S es un plano de dimensión 2 en R^3, su ortogonal S es una recta de dimensión 1, por lo que una base de S es simplemente:{(1, -1, 1)} Respuesta correcta: A){(1, -1, 1)}
+Resumen flash para el test:Ecuación del plano: a x + b y + c z = 0  Vector ortogonal directo: (a, b, c).Si el plano es x - y + z = 0, su vector ortogonal es (1, -1, 1) sin hacer ningún cálculo extra.
+-Habrá Suma Directa si y solo si los subespacios NO comparten ninguna dirección/vector en común (su intersección es únicamente el vector cero (0,0,0).
+-AUTOVALORES MATRICES TRIANGULARES:Aclaración clave:
+	Si TODOS los demás números son ceros (matriz Diagonal):
+	
+    	    |  5   0   0 |
+	A = |  0   2   0 |  ==>  Autovalores directos: 5, 2, -1
+            |  0   0  -1 |
+	
+	Si SOLO los números POR DEBAJO de la diagonal son ceros;
+	
+            |  1   0   2 |
+	A = |  0   1   0 |  ==>  Autovalores directos: 1, 1, 1
+            |  0   0   1 |
+
+	SOLO los números POR ENCIMA de la diagonal son ceros:
+
+            |  3   0   0 |
+	A = |  4   7   0 |  ==>  Autovalores directos: 3, 7, -2
+            |  1   2  -2 |
+
+-En R^3, sea f:R^3->R^3 un endomorfismo ortogonal (o transformación ortogonal) respecto al producto escalar habitual. Se cumple que:
+	A) Todos los autovalores reales de f deben ser 1 o -1;
+	B) det(f) siempre es igual a 1;
+	C) f es siempre diagonalizable sobre R;
+Solucion A
